@@ -108,7 +108,7 @@ python stable_diffusion_cpu.py
 
 - This implementation is specifically optimized for CPU execution
 - LoRAs are applied programmatically without requiring special tags in prompts
-- Generation time depends on CPU core count (approximately 5-10 minutes for 512x512 on a 4-core CPU)
+- Generation time depends on CPU core count (approximately 20s-1m for 512x512 on a 4-core CPU, cfg scale 1 sampling method lcm steps 10)
 - For low-memory systems, reduce image size to 384x384 or 256x256
 - Image-to-Image mode disables VAE quantization to preserve quality
 - LCM scheduler requires low CFG scale (1.0-2.0) for best results
