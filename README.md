@@ -42,10 +42,10 @@ This project provides a highly optimized implementation of Stable Diffusion desi
 
 ## System Requirements
 
-- **Minimum RAM:** 1.5 GB (for base models)
+- **Minimum RAM:** 4 GB (for base models) + 20 GB Virtual Memory (page file)
 - **Processor:** Minimum 2 cores (generation speed depends on core count)
-- **Disk Space:** Approximately 2 GB for models and dependencies
-- **Operating System:** Windows, macOS, or Linux
+- **Disk Space:** Approximately 3 GB for models and dependencies like `LoRA`
+- **Operating System:** Windows, macOS, or Linux (recommended os: Windows)
 
 ## Installation and Setup
 
@@ -56,6 +56,8 @@ pip install torch diffusers transformers accelerate safetensors psutil tqdm pill
 
 2. Download required model files:
    - Default models: `ds_lcm.safetensors` or `wm_lcm.safetensors`
+   - `ds_lcm`: Dreamshaped lcm model
+   - `wm_lcm`: Wondermix lcm model
    - Place models in the same directory as the script
 
 3. Run the application:
@@ -120,8 +122,8 @@ This project is released under the **YSNRFD LICENSE**.
 
 - Telegram: [@ysnrfd](https://t.me/ysnrfd)
 - GitHub: [ysnrfd](https://github.com/ysnrfd)
-- Hugging Face: [ysnrfd](https://huggingface.co/ysnrfd)
+- Hugging Face: [ysnrfd](https://huggingface.co/ysn-rfd)
 
 
 **Note:** This implementation is designed for systems without GPU access, allowing quality image generation using only CPU resources. It offers better performance compared to standard implementations without memory optimizations.
-```
+
