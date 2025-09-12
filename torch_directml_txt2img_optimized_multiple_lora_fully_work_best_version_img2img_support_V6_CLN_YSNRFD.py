@@ -8,7 +8,7 @@ Added: Support for saving and loading multiple configuration files
 Code By: YSNRFD (Updated with Multiple LoRA, Image-to-Image, and Advanced Settings)
 Telegram: @ysnrfd
 Github: ysnrfd
-Huggingface: ysnrfd
+Huggingface: ysn-rfd
 --------------------
 UNDER YSNRFD LICENSE
 --------------------
@@ -1511,8 +1511,9 @@ Added: Support for saving and loading multiple configuration files
 Code By: YSNRFD (Updated with Multiple LoRA, Image-to-Image, and Advanced Settings)
 Telegram: @ysnrfd
 Github: ysnrfd
-Huggingface: ysnrfd
+Huggingface: ysn-rfd
 --------------------
 UNDER YSNRFD LICENSE
 --------------------
+
 """
